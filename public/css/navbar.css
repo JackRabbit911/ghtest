@@ -1,0 +1,11 @@
+nav .navbar-brand img {
+    width: 54px;
+    margin: -16px 8px 0 0;
+    float: left;
+}
+
+.navbar-collapse, .navbar-fixed-top  {
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+}
+

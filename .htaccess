@@ -1,0 +1,8 @@
+AddDefaultCharset UTF-8
+SetEnv WN_ENV 40
+#PassEnv WN_ENV
+<IfModule mod_rewrite.c>    
+    RewriteEngine On
+#    RewriteRule .* public/index.php$0
+    RewriteRule ^(.*)$ public/$1
+</IfModule>
